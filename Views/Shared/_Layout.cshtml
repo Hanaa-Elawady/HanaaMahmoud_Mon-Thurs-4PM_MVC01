@@ -1,0 +1,26 @@
+﻿<Html>
+<Head>
+    <title>
+        MVC Sessions
+    </title>
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.rtl.min.css" />
+</Head>
+<Body>
+    <header>
+        <center>
+            <a href="/Home/Index" class="btn btn-dark">Home</a>
+            <a href="/Home/AboutUs" class="btn btn-danger">AboutUs</a>
+            <a href="/Home/ContactUs" class="btn btn-warning">ContactUs</a>
+            <a href="/Home/Privacy" class="btn btn-success">Privacy</a>
+        </center>
+    </header>
+    <div>
+        @RenderBody()
+    </div>
+    <footer class="fixed-bottom">
+        <center>
+            Footer
+        </center>
+    </footer>
+</Body>
+</Html>  
